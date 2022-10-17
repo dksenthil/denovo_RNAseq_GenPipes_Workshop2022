@@ -137,7 +137,7 @@ abacus2:~/C3G_projects/RNASeq_Trinity_Tuxedo_Workshop$
 <br>
 
 
-### __3. Resource __
+### __3. Resource__
 Documentation: https://genpipes.readthedocs.io/en/latest/
 
 GenPipes Container : https://github.com/c3g/genpipes_in_a_container
@@ -289,7 +289,7 @@ seq2fun:
 
 <br>
 
-### __6. Run Genpipes RNAseq de novo assembly on sample data __
+### __6. Run Genpipes RNAseq de novo assembly on sample data__
 
 ```
 [root@f5fecc750fec data]#
