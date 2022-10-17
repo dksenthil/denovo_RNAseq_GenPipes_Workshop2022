@@ -152,6 +152,7 @@ GenPipes Container : https://github.com/c3g/genpipes_in_a_container
 
 ```
 
+cd /tmp
 
 ### git clone https://bitbucket.org/mugqic/genpipes 
 
@@ -164,6 +165,11 @@ remote: Total 59845 (delta 3276), reused 3120 (delta 2790), pack-reused 55999
 Receiving objects: 100% (59845/59845), 57.72 MiB | 25.31 MiB/s, done.
 Resolving deltas: 100% (46666/46666), done.
 
+
+
+# move to any folder of interest
+
+mv genpipes /Users/skailasam/Documents/denovo_RNAseq_GenPipes_Workshop2022
 
 ```
 
