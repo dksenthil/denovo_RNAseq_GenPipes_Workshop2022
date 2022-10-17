@@ -1,0 +1,3 @@
+Sample	Readset	Library	RunType	Run	Lane	Adapter1	Adapter2	QualityOffset	BED	FASTQ1	FASTQ2	BAM
+GM12878_Rep1	GM12878_Rep1	myLibrary	PAIRED_END	1	1	AGATCGGAAGAGCACACGTCTGAACTCCAGTCA	AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT	33		/cvmfs/soft.mugqic/CentOS6/testdata/rnaseq/raw_data/rnaseq_GM12878_chr19_Rep1_R1.fastq.gz	/cvmfs/soft.mugqic/CentOS6/testdata/rnaseq/raw_data/rnaseq_GM12878_chr19_Rep1_R2.fastq.gz	
+GM12878_Rep2	GM12878_Rep2	myLibrary	PAIRED_END	1	1	AGATCGGAAGAGCACACGTCTGAACTCCAGTCA	AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT	33		/cvmfs/soft.mugqic/CentOS6/testdata/rnaseq/raw_data/rnaseq_GM12878_chr19_Rep2_R1.fastq.gz	/cvmfs/soft.mugqic/CentOS6/testdata/rnaseq/raw_data/rnaseq_GM12878_chr19_Rep2_R2.fastq.gz	
