@@ -12,6 +12,12 @@ Author: Senthilkumar Kailasam
 Date: Oct 2022
 
 
+Workshop files
+```
+git clone https://github.com/dksenthil/denovo_RNAseq_GenPipes_Workshop2022.git
+
+```
+
 We  will go through the steps involved in installing Genpipes in Ubuntu 22.04 LTS
 
 
