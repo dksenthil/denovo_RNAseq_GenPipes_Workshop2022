@@ -200,7 +200,7 @@ $ podman machine init -v $HOME:$HOME
 Error: podman-machine-default: VM already exists
 
 ### Python packages 
- podman run  --security-opt label=disable    --rm   --device /dev/fuse --cap-add SYS_ADMIN  -it  -v /tmp:/tmp -v /Users/skailasam:/Users/skailasam    --mount type=volume,source=cvmfs_cache,destination=/cvmfs-cache  c3genomics/genpipes 
+ podman run  --security-opt label=disable    --rm   --device /dev/fuse --cap-add SYS_ADMIN  -it  -v /tmp:/tmp -v /home/dksenthil:/home/dksenthil    --mount type=volume,source=cvmfs_cache,destination=/cvmfs-cache  c3genomics/genpipes 
  
 
 #>(base) statice:/Users/skailasam/Documents/denovo_RNAseq_GenPipes_Workshop2022
