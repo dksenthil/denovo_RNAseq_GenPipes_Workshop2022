@@ -27,9 +27,27 @@ Tools required:
 ```
 ### Install the podman Container package
 ### tools to install packages in ubuntu box as a root user.
+apt-get update -y
+#Step 2 – Install Podman
+#First, you will need to install some dependencies required to install Podman. You can install them with the following command:
 
-sudo apt install git-all
-sudo apt-get -y install podman
+apt-get install curl wget gnupg2 -y
+#Next, source your Ubuntu release and add the Podman repository with the following command:
+
+source /etc/os-release
+sh -c "echo 'deb http://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_${VERSION_ID}/ /' > /etc/apt/sources.list.d/devel:kubic:libcontainers:stable.list"
+Next, download and add the GPG key with the following command:
+
+wget -nv https://download.opensuse.org/repositories/devel:kubic:libcontainers:stable/xUbuntu_${VERSION_ID}/Release.key -O- | apt-key add -
+#Next, update the repository and install Podman with the following command:
+
+apt-get update -qq -y
+apt-get -qq --yes install podman
+After installing Podman, verify the Podman version with the following command:
+
+podman --version
+
+apt-get install curl wget gnupg2 -y
 
 podman info
 
