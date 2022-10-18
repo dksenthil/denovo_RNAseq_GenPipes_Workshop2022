@@ -51,7 +51,8 @@ apt-get install curl wget gnupg2 -y
 
 podman info
 
-podman machine init -v $HOME:$HOME
+If the system is a MACOS do the following to initiate a VM.
+#podman machine init -v $HOME:$HOME
 
 ```
 
